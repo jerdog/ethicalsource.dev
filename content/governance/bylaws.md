@@ -161,7 +161,7 @@ The nomination and election process shall be developed by the Vice President, pr
 
 <h3 class="fancy-subtitle">article 15</h3>
 
-There shall be one Board position reserved for paid staff, subject to the Organization’s conflict of interest policy. All other Board members work on a voluntary basis and as such can only be reimbursed for their actual expenses and travel costs. Potential attendance fees cannot exceed those paid for official commissions. For activities beyond the usual functions of volunteer Board members, each Board member is eligible for appropriate compensation subject to the conflict of interest policy.
+There shall be one Board position reserved for paid staff, subject to the Organization’s [conflict of interest policy](/governance/conflict-of-interest). All other Board members work on a voluntary basis and as such can only be reimbursed for their actual expenses and travel costs. Potential attendance fees cannot exceed those paid for official commissions. For activities beyond the usual functions of volunteer Board members, each Board member is eligible for appropriate compensation subject to the conflict of interest policy.
 
 The functions of the Board are:
 
