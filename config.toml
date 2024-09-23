@@ -1,6 +1,6 @@
 baseURL = "https://ethicalsource.dev"
 languageCode = "en-us"
-title = "Ethical Source"
+title = "Organization for Ethical Source"
 
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
@@ -23,47 +23,3 @@ disableHugoGeneratorInject = true
 
 [markup.goldmark.renderer]
   unsafe = true
-
-# Add all translated languages here.
-[Languages]
-  [Languages.en]
-    languageName = "English"
-    languageCode = "en"
-    weight = 1
-
-  [Languages.es]
-    languageName = "Español"
-    languageCode = "es-mx"
-
-  [Languages.fr]
-    languageName = "Français"
-    languageCode = "fr"
-
-  [Languages.pt-br]
-    languageName = "Português"
-    languageCode = "pt-br"
-
-  [Languages.de]
-    languageName = "Deutsch"
-    languageCode = "de"
-
-  [Languages.zh-tw]
-    languageName = "中文-台灣"
-    languageCode = "zh-tw"
-
-  [Languages.it]
-    languageName = "Italiano"
-    languageCode = "it"
-
-  [Languages.ro]
-    languageName = "Română"
-    languageCode = "ro"
-
-  [Languages.ar]
-    languageName = "العربية"
-    languageCode = "ar"
-    writingDirection = "rtl"
-
-  [Languages.nl]
-    languageName = "Dutch"
-    languageCode = "nl"
