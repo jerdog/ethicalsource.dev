@@ -333,6 +333,7 @@ ul.heroes li {
   padding: 1rem;
   padding-top: 3.75rem;
   position: relative;
+  line-height: 1rem;
 }
 
 ul.heroes li div.thumbnail {
