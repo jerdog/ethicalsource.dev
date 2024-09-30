@@ -37,10 +37,11 @@
  </head>
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
-    {{ partialCached "header" . .Section }}
+    {{ partial "header" . }}
     <div id="veil">
-      {{ block "main" . }}{{ end }}
-      {{ partialCached "footer" . .Section }}
+      {{ block "main" . }}
+      {{ end }}
+      {{ partial "footer" }}
     </div>
 
     {{ partial "navigation" . }}
