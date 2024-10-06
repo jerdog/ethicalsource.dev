@@ -1327,7 +1327,7 @@ ul.portraits li p {
   nav {
     position: absolute;
     top: 1.5rem;
-    right: 4.375rem;
+    /* right: 4.375rem; */
   }
 
   .data-list {
@@ -1516,7 +1516,7 @@ ul.portraits li p {
 
     &:hover,
     &:focus {
-      color: $link-color;
+      color: var(--color-white);
     }
   }
 
@@ -1536,9 +1536,9 @@ ul.portraits li p {
       padding: 0;
       max-height: 0;
       width: 100%;
-      background-color: $bg-color;
-      border-top: solid 2px $alt-bg-color;
-      border-bottom: solid 2px $alt-bg-color;
+      background-color: var(--color-black);
+      border-top: solid 2px var(--color-black);
+      border-bottom: solid 2px var(--color-black);
       transition: opacity 0.25s, max-height 0.15s linear;
     }
 
@@ -1570,7 +1570,7 @@ ul.portraits li p {
 
 
   #menu-toggle {
-    display: none;
+    display: block;
 
     @media only screen and (max-width: 768px) {
       display: initial;
@@ -1578,7 +1578,7 @@ ul.portraits li p {
       visibility: hidden;
 
       &:checked+label>i {
-        color: $alt-bg-color;
+        color: var(--color-black);
       }
 
       &:checked+label+ul {
@@ -1595,30 +1595,32 @@ ul.portraits li p {
 
   .menu-button {
     display: none;
+    text-align: right;
 
     @media only screen and (max-width: 768px) {
       position: relative;
       display: block;
       font-size: 2.4rem;
       font-weight: 400;
+      fill: var(--color-gold);
     }
 
     i {
 
       &:hover,
       &:focus {
-        color: $alt-fg-color;
+        color: var(--color-light-grey);
       }
     }
   }
 
   i {
-    color: $fg-color;
+    color: var(--color-black);
     cursor: pointer;
 
     &:hover,
     &:focus {
-      color: $link-color;
+      color: var(--color-black);
     }
   }
 }
